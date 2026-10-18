@@ -2,12 +2,12 @@
 
 using namespace std;
 
-int kvadrat(int n){
-    return n * n;
+int kube(int n){
+    return n * n * n;
 }
 
 int main()
 {
-    cout << kvadrat(5);
+    cout << kube(5);
     cout << endl;
 }
