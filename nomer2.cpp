@@ -10,9 +10,12 @@ string summastrok(string s1, string s2, string s3){
 int kvadrat(int n){
     return n * n;
 }
+int kube(int n){
+    return n * n * n;
+}
 
 int main()
 {
-    cout << kvadrat(5);
+    cout << kube(5);
     cout << endl;
 }
